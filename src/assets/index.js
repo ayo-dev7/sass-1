@@ -1,0 +1,15 @@
+export { default as monday } from "./monday.png";
+export { default as morpheus } from "./morpheus.png";
+export { default as oracle } from "./oracle.png";
+export { default as protons } from "./protons.png";
+export { default as samsung } from "./samsung.png";
+export { default as segment } from "./segment.png";
+export { default as zeppel } from "./zeppel.png";
+export { default as bird } from "./bird.png";
+export { default as contact } from "./contact.png";
+export { default as flash } from "./flash.png";
+export { default as setting } from "./setting-2.png";
+export { default as trial } from "./trial.png";
+export { default as testimonials } from "./testimonials.png";
+export { default as stars } from "./stars.png";
+export { default as segment2 } from "./segment2.png";

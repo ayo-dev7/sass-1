@@ -1,0 +1,45 @@
+.saas__process{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.saas__process h3{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+.saas__process p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #757095;
+    margin-bottom: 2rem;
+}
+
+.saas__process-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 35px;
+}
+
+@media screen and (max-width: 1050px) {
+    .saas__process-items .saas__about p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .saas__process-items{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

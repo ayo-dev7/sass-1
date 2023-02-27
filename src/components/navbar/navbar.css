@@ -1,0 +1,261 @@
+.saas__navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.saas__navbar-logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.saas__navbar-logo h1{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: var(--color-primary);
+}
+
+.saas__navbar-links{
+    display: flex;
+    align-items: center;
+}
+
+.saas__navbar-link{
+    display: flex;
+    margin: 0 1rem;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.saas__navbar-link p{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--color-primary);
+    cursor: pointer;
+}
+
+.saas__navbar-sign{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.saas__navbar-sign p{
+    margin-right: 2rem;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--color-primary);
+    cursor: pointer;
+}
+
+.saas__navbar-sign button{
+    background: #F57059;
+    border-radius: 40px;
+    padding: 0.5rem 0.8rem;
+    border: none;
+    outline: none;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.saas__navbar-menu{
+    display: none;
+    position: relative;
+    margin-left: 1rem;
+}
+
+.saas__navbar-menu__links{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-align: end;
+}
+
+.saas__navbar-menu__container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-align: end;
+    position: absolute;
+    margin-top: 1rem;
+    right: 0;
+    top: 30px;
+    background: var(--color-secondary);
+    border-radius: 5px;
+    min-width: 180px;
+}
+
+.saas__navbar-menu__sign{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-align: end;
+    display: none;
+}
+
+.saas__navbar-menu__sign button{
+    background: #F57059;
+    border-radius: 40px;
+    padding: 0.4rem 0.3rem;
+    border: none;
+    outline: none;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.saas__navbar-menu__sign p{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--color-primary);
+    cursor: pointer;
+    margin-bottom: 0.7rem;
+}
+
+.saas__navbar-sign__menu{
+    display: none;
+}
+
+
+@media screen and (max-width: 1050px) {
+    .saas__navbar-menu{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .saas__navbar-links{
+        display: none;
+    }
+
+    .saas__navbar-sign{
+        display: none;
+    }
+
+    .saas__navbar-sign__menu{
+        display: flex;
+        margin-right: 1rem;
+        align-items: center;
+    }
+
+    .saas__navbar-sign__menu p{
+        font-size: 16px;
+        line-height: 21px;
+        font-family: var(--font-family);
+        font-weight: 600;
+        color: var(--color-primary);
+        cursor: pointer;
+        margin-right: 1rem;
+    }
+
+    .saas__navbar-sign__menu button{
+        background: #F57059;
+        border-radius: 40px;
+        padding: 0.4rem 0.5rem;
+        border: none;
+        outline: none;
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+
+    .saas__navbar-logo h1{
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    .saas__navbar-sign button{
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .saas__navbar-sign p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .saas__navbar-link p{
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .saas__navbar-menu__container{
+        padding: 1.5rem;
+        min-width: 200px;
+    }
+
+    .saas__navbar-menu__links .saas__navbar-link{
+        margin-bottom: 1rem;
+    }
+
+    .saas__navbar-menu__links .saas__navbar-link p{
+        margin: 0;
+        font-size: 19px;
+        line-height: 23px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .saas__navbar-logo h1{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .saas__navbar-sign{
+        display: none;
+    }
+
+    .saas__navbar-menu__sign{
+        display: block;
+    }
+
+    .saas__navbar-menu__links .saas__navbar-link{
+        margin: 0;
+        padding-bottom: 1rem;
+    }
+
+    .saas__navbar-menu__sign p{
+        font-size: 19px;
+        line-height: 23px;
+        margin-bottom: 1rem;
+    }
+
+    .saas__navbar-menu__sign button{
+        font-size: 19px;
+        line-height: 23px;
+        padding: 0.4rem 0.5rem;
+    }
+
+    .saas__navbar-menu__container{
+        padding: 2rem;
+        top: 20px;
+    }
+
+    .saas__navbar-sign__menu{
+        display: none;
+    }
+}
+
+
+

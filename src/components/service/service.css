@@ -1,0 +1,45 @@
+.saas__service{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    border-radius: 15px;
+    padding: 3rem 2rem 1rem;
+}
+
+.saas__service-icon{
+    background: rgba(0,0,0,0.1);
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+}
+
+.saas__service h2{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    max-width: 137px;
+}
+
+.saas__service p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #757095;
+}
+
+@media screen and (max-width: 1050px) {
+    .saas__service p{
+        font-size: 15px;
+        line-height: 30px;
+    }
+}

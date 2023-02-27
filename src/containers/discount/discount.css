@@ -1,0 +1,52 @@
+.saas__discount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.saas__discount-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+    max-width: 655px;
+    text-align: center;
+}
+
+.saas__discount-heading h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 55px;
+    letter-spacing: -0.03em;
+    color: #000000;
+    margin-bottom: 2rem;
+}
+
+.saas__discount-heading p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: -0.02em;
+    color: #757095;
+}
+
+
+.saas__discount-cards-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
+
+@media screen and (max-width: 550px) {
+    .saas__discount-heading h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .saas__discount-cards-card{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

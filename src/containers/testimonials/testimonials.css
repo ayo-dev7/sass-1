@@ -1,0 +1,108 @@
+.saas__testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.saas__testimonials-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.saas__testimonials-heading h6{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #3734A9;
+    margin-bottom: 1rem;
+}
+
+.saas__testimonials-heading h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #000000;
+}
+
+.saas__testimonials-content{
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+}
+
+.saas__testimonials-content__image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+    flex: 1;
+}
+
+.saas__testimonials-content__image img{
+    width: 100%;
+    height: 100%;
+}
+
+.saas__testimonials-content__text{
+    flex: 1;
+}
+
+.saas__testimonials-content__text h3{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.02em;
+    color: #1B1C31;
+    margin: 1rem 0 2rem;
+}
+
+.saas__testimonials-content__footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.saas__testimonials-content__footer-text h4{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    color: #000000;
+}
+
+.saas__testimonials-content__footer-text p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #757095;
+}
+
+@media screen and (max-width: 1050px) {
+    .saas__testimonials-content__text h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .saas__testimonials-content{
+        flex-direction: column;
+    }
+
+    .saas__testimonials-content__text h3{
+        font-size: 25px;
+        line-height: 35px;
+    }
+}
